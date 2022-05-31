@@ -1,0 +1,29 @@
+#header {
+    background-color: #1F2937;
+    color: #FAF9F8;
+    font-size: 24px;
+}
+
+#sec1 {
+    background-color: #1F2937;
+    color: #FAF9F8;
+    font-size: 48px;
+}
+
+#sec3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
+}
+
+#sec3-quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+#sec3-quote-author {
+    align-self: flex-end;
+}
