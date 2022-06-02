@@ -1,13 +1,81 @@
-#header {
-    background-color: #1F2937;
-    color: #FAF9F8;
-    font-size: 24px;
-}
-
 #sec1 {
     background-color: #1F2937;
     color: #FAF9F8;
     font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+#sec1-header {
+    background-color: #1F2937;
+    color: #FAF9F8;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 150px;
+}
+
+#header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 150px;
+    gap: 25px;
+}
+
+#sec1-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+#sec1-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    margin-left: 150px;
+    gap: 5px;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#sec1-btn {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+}
+
+#sec1-img {
+    margin-right: 150px;
+}
+
+.sec1-left-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #sec3 {
